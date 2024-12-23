@@ -3,7 +3,7 @@ from datasets import Dataset
 import pandas as pd
 
 # Load the dataset from a CSV file
-csv_path = '/Users/kailash/Downloads/custom_dataset.csv'  # Update with your CSV file path
+csv_path = 'custom_dataset.csv'  # Update with your CSV file path
 df = pd.read_csv(csv_path)
 
 # Convert the DataFrame to a Hugging Face Dataset
